@@ -6,20 +6,25 @@ module.exports = {
         // Obtenemos el nombre de la persona que mandó el mensaje
         const senderName = msg.pushName || 'babe';
 
-        // Diseñamos el menú con estilo Euphoria
+        // Diseñamos el menú con la nueva estética de lunas y estrellas
         const menuTexto = `╭──〔 🏰 *E U P H O R I A   B O T* 🏰 〕──╮
 |
 | 🌑 *Hola, ${senderName}* 🌑
 | _Bienvenido a la nueva era._
 |
 ├──〔 👑 *M O D E R A C I Ó N* 〕──┤
-| 🔮 *!kick*
-| 🔮 *!warn*
-| 🔮 *!tagall*
-| 🔮 *!unwarn*
+| 🌟 *!kick*
+| 🌟 *!warn*
+| 🌟 *!unwarn*
+| 🌟 *!tagall*
+| 🌟 *!promote*
+| 🌟 *!demote*
+| 🌟 *!open*
+| 🌟 *!close*
+| 🌟 *!link*
 ├──〔 🌌 *D I V E R S I Ó N* 〕──┤
 | 🌟 *!s*
-| 🌟 *!ping* (Comprueba si estoy vivo)
+| 🌟 *!ping*
 | 🌟 *!play*
 |
 ╰─────────────────────────────╯
